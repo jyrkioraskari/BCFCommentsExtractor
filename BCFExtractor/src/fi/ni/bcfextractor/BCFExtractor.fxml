@@ -42,21 +42,14 @@
       </menus>
     </MenuBar>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" VBox.vgrow="ALWAYS">
-         <children>
-            <ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" layoutX="1.0" vbarPolicy="ALWAYS" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-              <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="402.0" prefWidth="517.0">
-                     <children>
+         <children>                    
                         <TableView fx:id="tableview" layoutX="6.0" layoutY="8.0" prefHeight="391.0" prefWidth="513.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                           <columns>
                             <TableColumn fx:id="columnComment" prefWidth="437.0" text="Comment" />
                           </columns>
                         </TableView>
                      </children>
-                  </AnchorPane>
-              </content>
-            </ScrollPane>
-         </children></AnchorPane>
+         </AnchorPane>
     
     
   </children>
